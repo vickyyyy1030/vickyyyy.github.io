@@ -4,8 +4,8 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, codewithvicky">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="codewithvicky">
+    <meta name="description" content="Markdown基础语法学习过程前言之前一直没有记笔记的习惯，都感觉不到自己学了什么，这大概就是我开始这个博客的初衷，想要明确的知道自己在过去的时间里收获了点什么。因为github跟我的博客都是使用markdown语法的，所以记录学习博客的">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Hello World | codewithvicky</title>
+    <title>codewithvicky</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -260,13 +260,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Hello World
+                        
                     </div>
                 </div>
             </div>
@@ -388,7 +388,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-08-20
+                    2019-08-22
                 </div>
 
                 
@@ -404,19 +404,54 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+                <h1 id="Markdown基础语法学习过程"><a href="#Markdown基础语法学习过程" class="headerlink" title="Markdown基础语法学习过程"></a>Markdown基础语法学习过程</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>之前一直没有记笔记的习惯，都感觉不到自己学了什么，这大概就是我开始这个博客的初衷，想要明确的知道自己在过去的时间里收获了点什么。因为github跟我的博客都是使用markdown语法的，所以记录学习博客的话我需要简单学习一下markdown语法相关，关于编辑器我使用的Typora，界面清爽简单，如果有其他好用的也希望大家可以推荐给我。</p>
+<h3 id="1-基础语法"><a href="#1-基础语法" class="headerlink" title="1. 基础语法"></a>1. 基础语法</h3><h4 id="1-1-分级标题"><a href="#1-1-分级标题" class="headerlink" title="1.1 分级标题"></a>1.1 分级标题</h4><p>markdown有两种标题语法，类Setext和类atx</p>
+<ul>
+<li><p>类Setext不知道为什么没效果？所以等以后再解决。</p>
+</li>
+<li><p>类atx主要通过#号来使用，共分六级</p>
+<p>#空格键标题名 这种形式 从一到六标题依次缩小</p>
+<p>效果如下：</p>
+<p><img src="C:%5CUsers%5Cvicky%5CDesktop%5Cmarkdown%E6%A0%87%E9%A2%98.png" alt="markdown标题"></p>
+</li>
+</ul>
+<h4 id="1-2-文字修饰"><a href="#1-2-文字修饰" class="headerlink" title="1.2 文字修饰"></a>1.2 文字修饰</h4><p>文字修饰主要包含三种：斜体、粗体与下划线</p>
+<ul>
+<li>斜体：*我是斜体*，效果：<em>我是斜体</em> </li>
+<li>粗体：**我是粗体**，效果：<strong>我是粗体</strong></li>
+<li>下划线：~~我是下划线~~，效果：<del>我是下划线</del></li>
+<li>斜体+粗体：***我是斜体+粗体***，效果：<strong><em>我是斜体+粗体</em></strong></li>
+</ul>
+<h4 id="1-3-列表"><a href="#1-3-列表" class="headerlink" title="1.3 列表"></a>1.3 列表</h4><p>列表主要分两种，有序列表与无序列表，我忘记在哪里看到的了，好像有序列表只需要开始的1，后面会自动排序。</p>
+<ul>
+<li>无序列表：无序列表可用+、-、*</li>
+<li>有序列表：使用数字</li>
+</ul>
+<h4 id="1-4-链接"><a href="#1-4-链接" class="headerlink" title="1.4 链接"></a>1.4 链接</h4><p>链接分两种：引用图片与文字链接，区别在于！</p>
+<ul>
+<li>文字链接：<a href="http://codewithvicky.com/" target="_blank" rel="noopener">codewithvicky</a>  语法：[我是链接说明](这里放链接)</li>
+<li>引用图片：在[]前加!</li>
+</ul>
+<h4 id="1-5-引用"><a href="#1-5-引用" class="headerlink" title="1.5 引用"></a>1.5 引用</h4><p>引用语法如下：</p>
+<p>&gt; 这里是引用</p>
+<p>效果：</p>
+<blockquote>
+<p>这里是引用</p>
+</blockquote>
+<h4 id="1-6-分割线"><a href="#1-6-分割线" class="headerlink" title="1.6 分割线"></a>1.6 分割线</h4><p>分割线可以使用***或者—</p>
+<h3 id="1-7-插入代码"><a href="#1-7-插入代码" class="headerlink" title="1.7 插入代码"></a>1.7 插入代码</h3><p>代码插入使用三个以上反引号包裹</p>
+<p>例如：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[i**<span class="number">2</span> <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">10</span>)]</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<h4 id="1-8-插入表格"><a href="#1-8-插入表格" class="headerlink" title="1.8 插入表格"></a>1.8 插入表格</h4><p>插入表格的语法暂时还没搞明白，在Typora中只要输入表头自动形成表格了，暂时没弄清楚除了鼠标外怎么调整格式，插入表头语法为|表头|列1|列2|</p>
+<p>基础语法基本常用的整理到这里，如果以后还有其他的会经常用到的到时候再慢慢加进来。</p>
+<p>参考文章：</p>
+<ul>
+<li><a href="https://www.jianshu.com/p/f3147a804368" target="_blank" rel="noopener">最实用的 Markdown 语法教程</a></li>
+<li><a href="https://mp.weixin.qq.com/s?__biz=MzIwMzYwMTk1NA==&mid=2247489234&idx=1&sn=c6de4582a1400af22e0908f05a8870bc" target="_blank" rel="noopener">Markdown语法图文全面详解(10分钟学会)</a></li>
+<li><a href="https://www.jianshu.com/p/335db5716248" target="_blank" rel="noopener">最完整的Markdown基础教程</a></li>
+<li><a href="https://blog.csdn.net/afei__/article/details/80717153" target="_blank" rel="noopener">Markdown语法介绍（详细）</a> </li>
+</ul>
 
             </div>
             <hr/>
@@ -575,9 +610,9 @@
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《Hello World》
+                    《》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/08/20/hello-world/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/08/22/Markdown基础语法学习过程/" property="cc:attributionName"
                rel="cc:attributionURL">
                 
             </a> 采用
@@ -617,9 +652,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2019/08/22/Markdown基础语法学习过程/">
                     <div class="card-image">
@@ -637,9 +673,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-22
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-22
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
@@ -648,6 +684,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -655,7 +692,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2019/08/20/hello-world/">
@@ -685,7 +722,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
